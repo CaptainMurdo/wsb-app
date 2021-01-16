@@ -35,12 +35,12 @@ youtube_username                          :
 features                                  :
 
   - title                                 : 20+ stickers
-    description                           : Improve your financial advice with *YOLO* encouragement and *I'm in!* confidence
+    description                           : Improve your financial advice with YOLO encouragement and 'I'm in!' confidence
     fontawesome_icon_name                 : comments-dollar
     
   - title                                 : Wallstreetbets classics
-    description                           : Includes many of your favourites - *to the moon*, *buy the dip*, and more
-    fontawesome_icon_name                 : reddit-alien
+    description                           : Includes many of your favourites - to the moon, buy the dip, and more
+    fontawesome_icon_name                 : reddit
 
   - title                                 : Works across devices
     description                           : The stickers are available for all iPhones and iPads running iOS 10 or later
@@ -80,7 +80,7 @@ feature_icons_background_color            : "#e6e6e6"
 social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
 
-footer_text_color                         : "#4183C4"
+footer_text_color                         : "#666666"
 
 
 
