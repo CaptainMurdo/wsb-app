@@ -40,11 +40,11 @@ features                                  :
     
   - title                                 : Wallstreetbets classics
     description                           : Includes many of your favourites - to the moon, buy the dip, and more
-    fontawesome_icon_name                 : reddit
+    fontawesome_icon_name                 : magic
 
   - title                                 : Works across devices
     description                           : The stickers are available for all iPhones and iPads running iOS 10 or later
-    fontawesome_icon_name                 : app-store-ios
+    fontawesome_icon_name                 : mobile
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
