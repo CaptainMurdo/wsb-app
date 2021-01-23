@@ -339,13 +339,6 @@ nav > ul li a:active {
 	filter: $drop-shadow;
 }
 
-.downloadButtonsContainerFooter {
-	display: inline-block;
-	margin-top: 30px;
-	margin-bottom: 30px
-	filter: $drop-shadow;
-}
-
 @media only screen and (max-width: 992px) {
 
 	.downloadButtonsContainer {
@@ -633,7 +626,8 @@ footer {
 .footerSubtext {
 	color: $footer-text-color;
 	display: block;
-	line-height: 0.2;
+	line-height: 1.2;
+	font-size: 10px;
 	width: 100%;
 	text-align: center;
 	padding-top: 35px;
