@@ -2,6 +2,40 @@
 	{% if site.your_name %}
 	<p class="footerText">Made by {% if site.your_link %}<a href="{{ site.your_link }}">{% endif %}{{ site.your_name }}{% if site.your_link %}</a>{% endif %}{% if site.your_city %} in {{ site.your_city }}{% endif %}</p>
 	{% endif %}
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+{% if site.ios_app_id %}
+
+<script>
+
+$(function() {
+
+    var apiURL = "https://itunes.apple.com/lookup?id={{ site.ios_app_id }}&callback=?";
+
+    $.getJSON(apiURL, function(json) {
+
+        if (json.results && json.results.length) {
+
+            console.info("Image strings loaded from Apple API.");
+            var appInfo = json.results[0];
+
+            // Set App Store link using the iOS app ID if it is not set manually in _config.yml
+            var $appStoreLink = $(".appStoreLink");
+            if ($.trim($appStoreLink.attr('href')).length == 0) {
+                $($appStoreLink).attr("href", appInfo.trackViewUrl);
+            }
+
+            console.info(appInfo);
+
+        }
+    });  
+});
+
+</script>
+
+{% endif %}
+            
 	<div class="footerIcons">
 
 		{% if site.facebook_username %}
