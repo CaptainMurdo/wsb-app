@@ -623,6 +623,16 @@ footer {
 	padding-bottom: 70px;
 }
 
+.footerSubtext {
+	color: $footer-text-color;
+	display: block;
+	line-height: 1;
+	width: 100%;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
 .footerIcons {
 	padding-bottom: 70px;
 	display: flex;
