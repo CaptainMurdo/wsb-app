@@ -37,11 +37,11 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : 20+ stickers
+  - title                                 : 20 stickers
     description                           : Improve your financial advice with YOLO encouragement and 'I'm in!' confidence
     fontawesome_icon_name                 : comments-dollar
     
-  - title                                 : Wallstreetbets classics
+  - title                                 : Wall Street classics
     description                           : Includes many of your favourites - to the moon, buy the dip, and more
     fontawesome_icon_name                 : magic
 
