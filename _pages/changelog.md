@@ -14,3 +14,12 @@ First release with over 20 iMessage stickers.
 Minor design iterations  
 
 <br>
+
+## **Version 2021.2.1**
+Four new stickers:
+- Ape strong
+- We like the stock
+- Hold!
+- Hold the line
+
+<br>
